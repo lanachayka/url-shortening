@@ -1,0 +1,18 @@
+@import "../../styles/variables.scss";
+
+.started-link-wrapper{
+    background-image: url("../../images/bg-boost-desktop.svg");
+    min-width: 100%;
+    background-color: $DarkViolet;
+    text-align: center;
+    margin-top: 50px;
+    padding-block: 50px;
+    h2{
+        color: $White;
+        margin-bottom: 20px;
+    }
+    button{
+        max-width: 200px;
+        min-height: 60px;
+    }
+}

@@ -1,0 +1,11 @@
+@import "../../styles/variables.scss";
+
+footer {
+  background-color: $VeryDarkViolet;
+  min-width: 100%;
+  text-align: center;
+  padding-block: 30px;
+  h2{
+    color: $White;
+  }
+}

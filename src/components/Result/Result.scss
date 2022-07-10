@@ -1,0 +1,42 @@
+@import "../../styles/variables.scss";
+
+.result-container {
+  margin-top: 50px;
+  margin-inline: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-block: 20px;
+  border: 2px dashed $DarkViolet;
+  width: 90%;
+  .longUrl {
+    border-bottom: 1px solid $DarkViolet;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    word-wrap: break-word;
+    max-width: 300px;
+  }
+  .shortUrl {
+    margin: 0;
+    padding: 0;
+    color: $Cyan;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .result-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    width: $desktop;
+    .longUrl {
+      border: none;
+      padding-bottom: 0;
+      margin-left: 20px;
+      max-width: fit-content;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../styles/variables.scss";
+
+.url-form {
+  background-image: url("../../images/bg-boost-mobile.svg");
+  background-color: $DarkViolet;
+  margin-top: 50px;
+  margin-inline: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-block: 20px;
+  width: 90%;
+  input {
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    &:focus {
+      outline: $Cyan solid 2px;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .url-form {
+    background-image: url("../../images/bg-boost-desktop.svg");
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    width: $desktop;
+    input {
+      height: 35px;
+      margin-left: 20px;
+      width: 97%;
+    }
+  }
+}
