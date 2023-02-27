@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/url-shortening/static/css/main.beb532fa.css",
+    "main.css": "/url-shortening/static/css/main.01fff1fc.css",
     "main.js": "/url-shortening/static/js/main.85c7bb7a.js",
     "static/media/Working.svg": "/url-shortening/static/media/Working.c9b5ef5452363d8be3df709375d50bd0.svg",
     "static/media/Logo.svg": "/url-shortening/static/media/Logo.834643034343520f3b4d7e43111ed4d8.svg",
@@ -10,11 +10,11 @@
     "static/media/icon-detailed-records.svg": "/url-shortening/static/media/icon-detailed-records.265c8aea77b546e08ba3575f6a8a9f70.svg",
     "static/media/bg-boost-mobile.svg": "/url-shortening/static/media/bg-boost-mobile.4b04bd89ea775da3deff.svg",
     "index.html": "/url-shortening/index.html",
-    "main.beb532fa.css.map": "/url-shortening/static/css/main.beb532fa.css.map",
+    "main.01fff1fc.css.map": "/url-shortening/static/css/main.01fff1fc.css.map",
     "main.85c7bb7a.js.map": "/url-shortening/static/js/main.85c7bb7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb532fa.css",
+    "static/css/main.01fff1fc.css",
     "static/js/main.85c7bb7a.js"
   ]
 }
